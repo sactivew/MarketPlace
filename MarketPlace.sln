@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{EAC60B84-3421-4AA5-9FF9-CA168BFC0380}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D70E1B26-EB77-4C85-B812-79772EA29859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inventory", "Inventory", "{F6B7E407-BA29-4747-88AA-E475BC37EE6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.API", "Src\Services\Inventory\Inventory.API\Inventory.API.csproj", "{EBAC3F20-3874-40C9-9AAC-E173C348030F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{23615193-62E4-429F-9B1E-517240C5C954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBAC3F20-3874-40C9-9AAC-E173C348030F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAC3F20-3874-40C9-9AAC-E173C348030F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAC3F20-3874-40C9-9AAC-E173C348030F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAC3F20-3874-40C9-9AAC-E173C348030F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23615193-62E4-429F-9B1E-517240C5C954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23615193-62E4-429F-9B1E-517240C5C954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23615193-62E4-429F-9B1E-517240C5C954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23615193-62E4-429F-9B1E-517240C5C954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D70E1B26-EB77-4C85-B812-79772EA29859} = {EAC60B84-3421-4AA5-9FF9-CA168BFC0380}
+		{F6B7E407-BA29-4747-88AA-E475BC37EE6C} = {D70E1B26-EB77-4C85-B812-79772EA29859}
+		{EBAC3F20-3874-40C9-9AAC-E173C348030F} = {F6B7E407-BA29-4747-88AA-E475BC37EE6C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16514258-8875-4A37-BBE8-152E9848C9B1}
+	EndGlobalSection
+EndGlobal
