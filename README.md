@@ -19,5 +19,6 @@ http://localhost:5000/swagger/index.html and run the postman tests against http:
 
 * The solution is implemented as MicroService using .NetCore upon MongoDB, and containerised with Docker.
 * Please note, the product id is auto incremented when new product gets created. Hence, the postman test cases may need a little tweak with the param 'id' to get 100% pass when running against the same db container second time. Eg. http://localhost:5000/v1/product/4 may need to be changed to http://localhost:5000/v1/product/5 
+* Although the postman is used to run the functional test, the controllers can also benefit from some unit and integration tests, which is not included in this task. 
 
 Any questions please let me know. Thanks!
